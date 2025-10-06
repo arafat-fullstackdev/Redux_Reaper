@@ -16,26 +16,18 @@ function App() {
   }
 
   return (
-    <>
-      
-      <h1>Vite + React</h1>
-      <div className="card">
-        <p>Count: {count}</p>
-        <button onClick={increment}>
-          count is 
-        </button>
-       
-      </div>
-
-      <div className="card">
-        <p>Count: {count1}</p>
-        <button onClick={asynIncrement}>
-          count is 
-        </button>
-       
-      </div>
-      
-    </>
+   <>
+   <div>Redux Counter</div>
+   <div>
+    <h2>Increment</h2>
+    <button>0</button>
+   </div>
+   
+   <div>
+    <h2>Decrement</h2>
+    <button>0</button>
+   </div>
+   </>
   )
 }
 
