@@ -13,7 +13,7 @@
 // counter.increment();
 
 //? Pure function 
-const add = (a,b)=> a+b;
+// const add = (a,b)=> a+b;
 
 // console.log(add(2,5));
 // console.log(add(0,5));
@@ -21,15 +21,24 @@ const add = (a,b)=> a+b;
 
 
 //* impure function
-var total =4;
+// var total =4;
 
-const totalAmount = (amount) => (total = total + amount);
+// const totalAmount = (amount) => (total = total + amount);
 
-console.log(totalAmount(5))
+// console.log(totalAmount(5))
 
 
-const updateDate = () => {
-   new Date();
-} 
+// const updateDate = () => {
+//    new Date();
+// } 
 
-console.log(updateDate);
+// console.log(updateDate);
+
+//? Mutable vs Immutable
+
+const employee = {name: 'LalMia',job: "Developer", city:"ChanPur"}
+const employee2 = employee;
+employee2.name= "KalaMia";
+
+console.log(employee);
+console.log(employee2);
