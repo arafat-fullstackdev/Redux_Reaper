@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
-import Watch from "./components/clock.js"
+import Navbar from "./components/layout/Navbar";
+// import Watch from "./components/Clock"
 
 
 
@@ -11,9 +12,10 @@ function App() {
    <>
 
    <Button>Test</Button>
+   <Navbar/>
    
     <div className="flex min-h-svh flex-col items-center justify-center">
-           <Watch/> 
+      {/* // <Watch/>  */}
       <Button>Click me</Button>
     </div>
 

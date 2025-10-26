@@ -22,6 +22,6 @@ Clock.defaultProps ={
     Local: 'bn-BD'
 }
 
-    ReactDOM.render(<Clock locale="bn-BD />, document.getElementById('root'));
+    ReactDOM.render(<Clock locale="bn-BD" />, document.getElementById('root'));
 
 export default Clock;
