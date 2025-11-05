@@ -1,6 +1,7 @@
+import type { RootState } from "@/Redux/store";
 import type { ITask } from "@/Type";
 import { createSlice } from "@reduxjs/toolkit";
-import type { RootState } from "@reduxjs/toolkit/query";
+
 
 interface initialPlace {
     tasks: ITask[];
