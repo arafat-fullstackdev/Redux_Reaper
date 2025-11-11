@@ -16,6 +16,8 @@ export default function Task() {
       <TaskCard/>
       <TaskCard/>
       <TaskCard/>
+      <TaskCard/>
+      <TaskCard/>
     </div>
     </div>
   );

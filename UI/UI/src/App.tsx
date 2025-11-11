@@ -1,24 +1,13 @@
 import { Outlet } from "react-router";
 import Navbar from "./components/layout/Navbar";
 
-
-
 function App() {
-
-
-
   return (
-   <>
-
-   
-   <Navbar/>
-   <Outlet/>
-   
-   
-
-   
-   </>
-  )
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;

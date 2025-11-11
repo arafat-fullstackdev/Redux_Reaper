@@ -13,6 +13,7 @@ export default function TaskCard(){
                     <div className="flex gap-3 items-center">
                         <Button variant="link" className="text-red-500">
                             <Trash2/>
+                            {/* <h2>Button Clicked</h2> */}
                         </Button>
                        <Checkbox/>
                     </div>
