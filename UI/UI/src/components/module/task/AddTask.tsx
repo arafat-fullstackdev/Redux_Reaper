@@ -2,7 +2,16 @@ import React from 'react'
 
 function AddTask() {
   return (
-    <div>AddTask</div>
+    <div>
+      <div>
+        <h2>Task One</h2>
+        <h2>Task One</h2>
+        <h2>Task One</h2>
+        <h2>Task One</h2>
+        <h2>Task One</h2>
+        </div>
+    </div>
+   
   )
 }
 
