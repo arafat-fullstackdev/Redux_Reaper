@@ -8,7 +8,7 @@ function Login(){
         setTimeout(() =>{
             setData('Fetched Data');
             setIsLoading(false);
-        }, 2000);
+        }, 3000);
     }, []);
 
     return(

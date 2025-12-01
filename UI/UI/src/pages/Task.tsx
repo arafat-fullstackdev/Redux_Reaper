@@ -14,10 +14,7 @@ export default function Task() {
     <div className='space-y-5 mt-5'>
       <TaskCard/>
       <TaskCard/>
-      <TaskCard/>
-      <TaskCard/>
-      <TaskCard/>
-      <TaskCard/>
+     
     </div>
     </div>
   );
